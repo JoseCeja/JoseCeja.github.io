@@ -17,8 +17,8 @@ function draw(){
 function preload(){
 
   rockImage = loadImage("images/rock.png");
-  scissorImage = loadImage("images/paper.png");
-  paperImage = loadImage("images/paer.png");
+  scissorImage = loadImage("images/scissor.png");
+  paperImage = loadImage("images/paper.png");
 
 }
 
@@ -72,4 +72,11 @@ function showSlection(){
     image(paperImage, centerX + 50, centerY)
 
   }
+}
+
+function chechResult(){
+if (userSelect == compSelect) {
+
+}
+
 }
